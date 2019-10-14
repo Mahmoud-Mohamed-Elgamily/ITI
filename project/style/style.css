@@ -91,7 +91,7 @@ div.item img {
 }
 
 form {
-    margin: 125px auto;
+    margin: 125px auto 0;
     width: 25%;
 }
 
@@ -109,8 +109,14 @@ form .input-container label {
     width: 97px
 }
 
-#gallery h2{
-    text-align: center;
+input[type="submit"],.button{
+    background-color: var(--font-color);
+    color: white;
+    border: 3px solid var(--container-bg);
+    padding: 7px 15px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
 }
 
 div.no-border{
@@ -118,10 +124,51 @@ div.no-border{
     border: none;
 }
 
-input[type="submit"]{
-    background-color: var(--font-color);
-    color: white;
-    border: 3px solid var(--container-bg);
-    padding: 7px 15px;
-    cursor: pointer;
+#gallery h2 ,#about h2{
+    text-align: center;
+}
+
+#gallery .items .item{
+    width: 22%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+#gallery .items .item img{
+    height: 300px;
+}
+#gallery .items .item p{
+    margin: 0 0 5px;
+}
+
+#info{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+#info img,#info p{
+    display: inline-block;
+    width: 46%;
+    margin: 0 10px;
+}
+
+#info img{
+    height: 480px;
+}
+
+#info p{
+    text-align: left;
+    font-size: 35px;
+    position: relative;
+    bottom: 100px;
+}
+
+#about{
+    text-align: center;
+}
+
+#about p{
+    text-align: center;
+    width: 85%;
+    margin: 0 auto 60px;
 }
