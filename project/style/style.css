@@ -74,7 +74,7 @@ div.inner a {
 
 div.item {
     display: inline-block;
-    width: 31%;
+    width: 30%;
     margin: 0 12px;
     height: 400px;
     position: relative;
@@ -91,11 +91,12 @@ div.item img {
 }
 
 form {
-    margin: 125px auto 0;
+    margin: 25px auto 0;
     width: 25%;
 }
 
 form .input-container {
+    text-align: center;
     display: inline-block;
     margin-bottom: 10px;
     width: -webkit-fill-available;
@@ -106,7 +107,7 @@ form .input-container {
 form .input-container label {
     display: inline-block;
     text-transform: capitalize;
-    width: 97px
+    width: 90px;
 }
 
 input[type="submit"],.button{
